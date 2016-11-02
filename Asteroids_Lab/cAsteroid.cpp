@@ -23,7 +23,7 @@ Update the sprite position
 
 void cAsteroid::update(double deltaTime)
 {
-
+	//my pretend change
 	this->setSpriteRotAngle(this->getSpriteRotAngle() +(5.0f * deltaTime)); 
 	if (this->getSpriteRotAngle() > 360)
 	{
